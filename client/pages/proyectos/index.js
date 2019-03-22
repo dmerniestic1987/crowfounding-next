@@ -33,8 +33,8 @@ class ProyectoShow extends Component{
     } catch (error) {
       alert(
         'No se pudo cargar una instancia de web3, o las cuentas o el contrato. '
-        .concat(error.message + '. ')
-        .concat('Revise la consola para más detalle'));
+        .concat(error)
+        .concat('. Revise la consola para más detalle'));
       console.log(error)
     }
   }
